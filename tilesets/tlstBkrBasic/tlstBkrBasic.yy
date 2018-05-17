@@ -1,8 +1,8 @@
 {
-    "id": "41f7b545-3bd1-4b14-88f0-26d9452d5a67",
+    "id": "4eb0e173-cf66-4bba-bdac-5dab33f30c2d",
     "modelName": "GMTileSet",
     "mvc": "1.11",
-    "name": "bkrBasicTile",
+    "name": "tlstBkrBasic",
     "auto_tile_sets": [
         
     ],
@@ -35,10 +35,10 @@
     ],
     "tile_animation_speed": 15,
     "tile_count": 4,
-    "tileheight": 16,
+    "tileheight": 32,
     "tilehsep": 0,
     "tilevsep": 0,
-    "tilewidth": 16,
+    "tilewidth": 32,
     "tilexoff": 0,
     "tileyoff": 0
 }
