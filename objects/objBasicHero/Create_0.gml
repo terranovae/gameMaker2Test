@@ -1,7 +1,9 @@
 playerControlled = false;   //is this an enemy(ai) = 0, or a player =1
-myTurn = false;             //can I currently play, no = 0, 1 = yes
-state = 0;              //used in ____StateMachine (player or enemy)
-turnTimer = 0;          //used in gameOrder(), if 100, my turn;
+heroState = 0;              //used in ____StateMachine (player or enemy)
+myTurn = false;
+butt = 0;
+myColour = make_colour_hsv(random(255), random(255), random(255));
+
 
 //controls stuff
 steps = 0;              //steps a player can take on their turn
@@ -18,6 +20,7 @@ heroSight = 0;          //how far hero can see/find hidden heros/items
 setHeroStats();
 
 //heros status effects
-statusSleep = 0;
-statusBurn = 0;
+canMove = true;
+statusSleep = true;
+statusBurn = true;
 //etc

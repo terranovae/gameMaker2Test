@@ -170,7 +170,7 @@
             "Key": "97f5eff8-553f-4e88-acbc-32e2958406cf",
             "Value": {
                 "id": "36bb51e1-a494-4983-a0cf-5c2446638c30",
-                "resourcePath": "scripts\\gameOrder\\gameOrder.yy",
+                "resourcePath": "scripts\\gameStateMachine\\gameStateMachine.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -212,6 +212,14 @@
                 "id": "a0bad000-ab3f-4204-89e0-24d7c60a565d",
                 "resourcePath": "views\\c504a6ec-df12-42ef-a545-f63ef0d2aebd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c697359a-e657-42f4-8308-72a07c16d2d1",
+            "Value": {
+                "id": "38f2dc02-f146-4a99-9796-09cb1499cbb8",
+                "resourcePath": "sprites\\sprMoveArea\\sprMoveArea.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -303,6 +311,14 @@
             }
         },
         {
+            "Key": "faf3f2f9-6dc1-478c-9838-f2a217132827",
+            "Value": {
+                "id": "9ee2a078-c881-478a-89f9-fb57177aaded",
+                "resourcePath": "scripts\\OLDVERSIONgameTurnORder\\OLDVERSIONgameTurnORder.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fba4d4cb-7372-4299-8214-cb9e47d2a4c5",
             "Value": {
                 "id": "5d6ce230-e4cf-44f3-b0b1-5aacff08f8a5",
@@ -319,6 +335,7 @@
         "0eaff2d7-9d6f-41cf-88aa-fb95ad5ed5a3",
         "5e54a533-f874-4e22-bd6e-950c6823308d",
         "97f5eff8-553f-4e88-acbc-32e2958406cf",
+        "faf3f2f9-6dc1-478c-9838-f2a217132827",
         "3c49db66-ca8a-475c-9301-b97792a692ab"
     ],
     "tutorial": ""

@@ -1,37 +1,38 @@
-playerControls();
 
-
-switch(state){
+playerControls();  //sets player controls (change later in menu)
+switch(heroState){
     case 0: //waiting for turn
-        if(myTurn){
-            steps = heroSpeed;
-            //show_debug_message("steps = " + string(steps));
-            abilityUsed = 0;
-            state = 2;   //set by objGameControl        
-        }
+        
+        //show_debug_message("steps = " + string(steps));
+		
+        abilityUsed = false;
+		steps = heroSpeed;
+		show_debug_message("BUTT" + string(butt));
+        heroState = 2;     
+        butt++
         break;
         
-/*    case 1: //set hero information (GUI stuff, center camera)
-            
-        break;*/
+		case 1: //set hero information (GUI stuff, center camera)
+            heroState = 2;
+        break;
     
     case 2: //move hero/select ability to use (show move area)
-            if(steps <= 0){
-                myTurn = 0;
-                turnTimer = 0;
-                state = 0;
-                /*if (abilityUsed){
-                    state = 0;
-                }else{
-                    state = 3;
-                }*/
-            }
-            playerMovement();
+		show_debug_message("SHITFUCKCUNTCICLEBUTT");
+		if(steps <= 0){
+                
+				heroState = 4;
+            }else{
+				playerMovement();
+			}
+            
         break;
 
     case 3: //use ability
             steps = floor(steps/2);
             abilityUsed = 1;
-            state = 2;
+            heroState = 2;
+        break;
+	case 4: //restState
+
         break;
     }

@@ -11,4 +11,4 @@
         y += 32;
         steps--;
     }
-    
+    show_debug_message("steps = " + string(steps));

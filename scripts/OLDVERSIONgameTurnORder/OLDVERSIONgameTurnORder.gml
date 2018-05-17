@@ -1,13 +1,16 @@
-
 if(ds_list_size(heroList) > 0){ 
-    show_debug_message("object : " + string(heroList[| turnOrder])); 
+//show_debug_message("object : " + string(heroList[| turnOrder])); 
+    
+    if(turnOrder >= ds_list_size(heroList)) turnOrder = 0;
     if(heroList[| turnOrder].myTurn == 0){
         heroList[| turnOrder].turnTimer += heroList[| turnOrder].heroAgility;
         if(heroList[| turnOrder].turnTimer >= 100){
             heroList[| turnOrder].myTurn = true;
+        }else{
+            turnOrder++;
         }
     
-    turnOrder++;
-    if(turnOrder > ds_list_size(heroList)) turnOrder = 0;
+    
+    
     }
 }
