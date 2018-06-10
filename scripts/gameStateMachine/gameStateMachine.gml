@@ -14,6 +14,10 @@ switch(state){
 			}
 			
 			if(heroList[| listOrder].heroState == 4)state = 2;
+			if(keyboard_check_pressed(ord("Z"))){
+				dungeonFloorGen();
+				drawFloorTiles();
+			}
         break;
     
     case 2:	//take Damage from environment/status effects

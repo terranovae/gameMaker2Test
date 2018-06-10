@@ -7,7 +7,7 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "24dfdc34-ee88-4904-a643-9439fd2b1569"
+        "c6be4c09-eab5-49db-91af-d3eac19ec306"
     ],
     "IsDnD": false,
     "layers": [
@@ -25,7 +25,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_6FFA73D5","id": "24dfdc34-ee88-4904-a643-9439fd2b1569","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_6FFA73D5","objId": "33a90290-491e-45ed-87ff-2595da20b45f","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 349,"y": 290}
+{"name": "inst_70C8FC65","id": "c6be4c09-eab5-49db-91af-d3eac19ec306","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_70C8FC65","objId": "2d3c29c1-37ab-410a-8e73-7c426efb051e","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 224,"y": 352}
             ],
             "layers": [
 
@@ -109,7 +109,7 @@
         "id": "31fcd2a7-fa15-40e5-afb9-80bc8a14f762",
         "clearDisplayBuffer": true,
         "clearViewBackground": false,
-        "enableViews": true,
+        "enableViews": false,
         "inheritViewSettings": false,
         "modelName": "GMRoomViewSettings",
         "mvc": "1.0"

@@ -3,7 +3,7 @@ if(myTurn == true){
     //if(playerControlled){
     //    playerStateMachine();
     //}else{
-        enemyStateMachine();
+        playerStateMachine();
     //}
     //objGameControl.turnOrder++;
 }

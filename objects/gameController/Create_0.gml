@@ -1,7 +1,8 @@
 
 randomize();
 //create empty map
-mapSize = 30;
+setGlobals();
+mapSize = 20;
 gameMap = ds_grid_create(mapSize, mapSize);
 heroList = ds_list_create();
 state = 0;

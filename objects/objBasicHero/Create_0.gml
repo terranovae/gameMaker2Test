@@ -1,7 +1,7 @@
 playerControlled = false;   //is this an enemy(ai) = 0, or a player =1
 heroState = 0;              //used in ____StateMachine (player or enemy)
 myTurn = false;
-butt = 0;
+//butt = 0;
 myColour = make_colour_hsv(random(255), random(255), random(255));
 
 

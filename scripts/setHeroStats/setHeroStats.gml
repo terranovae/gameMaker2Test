@@ -7,7 +7,11 @@ while(statBuy >0){
     stat = irandom(5);
     switch(stat){
         case 0:
+			if(heroSpeed > 4){
+				statBuy++;
+			}else{
             heroSpeed++;
+			}
         break;
         case 1:
             heroStrength++;

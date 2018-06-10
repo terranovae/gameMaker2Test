@@ -1,5 +1,5 @@
 {
-    "id": "0eaff2d7-9d6f-41cf-88aa-fb95ad5ed5a3",
+    "id": "5e54a533-f874-4e22-bd6e-950c6823308d",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "playerStateMachine",

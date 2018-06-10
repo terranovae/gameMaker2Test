@@ -4,12 +4,10 @@ switch(heroState){
     case 0: //waiting for turn
         
         //show_debug_message("steps = " + string(steps));
-		
+
         abilityUsed = false;
 		steps = heroSpeed;
-		show_debug_message("BUTT" + string(butt));
         heroState = 2;     
-        butt++
         break;
         
 		case 1: //set hero information (GUI stuff, center camera)
@@ -18,6 +16,7 @@ switch(heroState){
     
     case 2: //move hero/select ability to use (show move area)
 		show_debug_message("SHITFUCKCUNTCICLEBUTT");
+		//view_camera[0] = camera_create_view(x-300, y-300, 600, 600, 0, self, 1, 1, -1, -1)
 		if(steps <= 0){
                 
 				heroState = 4;
